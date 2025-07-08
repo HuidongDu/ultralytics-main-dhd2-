@@ -1,4 +1,16 @@
-欢迎下载我的代码，使用须知，作者的python版本为3.8，PyTorch version is 1.11.0 打开train文件并修改过路径便可开始训练。
+欢迎下载我的代码，使用须知，作者的python版本为3.8，PyTorch version is 1.11.0 cuda版本为 11.3 打开train文件并修改过路径便可开始训练。训练前请确认至少包含以下包：
+cv2 否则 pip install opencv-python；
+psutil 否则 pip install psutil；
+torch 否则 pip install torch
+matplotlib 否则 pip install matplotlib
+yaml 否则 pip install pyyaml
+tqdm 否则 pip install tqdm
+requests 否则 pip install requests
+timm 否则 pip install timm
+einops 否则 pip install einops
+efficientnet_pytorch 否则 pip install efficientnet_pytorch
+dill 否则 pip install dill
+pywt 否则 pip install PyWavelets
 当遇到如下问题时：
 1.ModuleNotFoundError：No module named xxx
 解决方案：缺少对应的包，先把YOLOV8环境配置的安装命令进行安装一下，如果还是缺少显示缺少包，安装对应的包即可(xxx就是对应的包). 
