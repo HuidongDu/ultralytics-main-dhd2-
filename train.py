@@ -18,5 +18,5 @@ if __name__ == '__main__':
                 optimizer='SGD', # using SGD
 
                 project='runs/dataset12',
-                name='yolov10',
+                name='yolov8',
                 )
