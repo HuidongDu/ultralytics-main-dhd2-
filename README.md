@@ -19,4 +19,4 @@ If the error persists, manually install the missing package (xxx refers to the s
 
 RuntimeError: Dataset 'xxxxx' error ❌
 
-Solution: Change all paths in data.yaml to absolute paths instead of relative ones.
+Solution: Change all paths in .yaml to absolute paths instead of relative ones.
